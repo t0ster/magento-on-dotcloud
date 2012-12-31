@@ -1,0 +1,6 @@
+www:
+  type: php
+  approot: magento
+  postinstall: ../postinstall.php
+db:
+  type: mysql
