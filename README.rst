@@ -7,6 +7,9 @@ It works out of the box, just follow these easy steps and in the end you'll have
 To run this code on dotCloud, you need a FREE `dotCloud account
 <https://www.dotcloud.com/register.html>`_ .
 
+More info on installing Magento can also be found `HERE
+<http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide>`_ 
+
 Install the `CLI
 <http://docs.dotcloud.com/0.9/firststeps/install/>`_ 
 (Command Line Interface)
@@ -14,13 +17,30 @@ Then clone this repository, and push it to dotCloud::
 
   git clone git://github.com/Donaldd/magento-on-dotcloud.git
   cd magento-on-dotcloud
-  echo "<?php" > magento/wp-salt.php ; curl https://api.magento.org/secret-key/1.1/salt/ >> magento/wp-salt.php
   dotcloud create mymagentoapp 
   dotcloud push
 
-Your Magento site is now running on dotCloud, to finalize your magento setup 
-simply run::
+This can take up to 10 minutes, but in the and your Magento site will be running on dotCloud, to finalize your magento setup simply run::
   dotcloud open
+
+You can then continue until you reach the configuration page. Here you'll need to enter your database credentials for your MySQL database. Your Database Name is "magento" and your User Name is "root". The other credentials you can get from the dashboard or with the following command::
+  
+  dotcloud env list
+
+Everything you need is in here. You need to look for a line similar to this one::
+  
+  DOTCLOUD_DB_MYSQL_URL=mysql://root:A5TH84K6WAsxGDxmJD8H@mymagentoapp-donaldd.azva.dotcloud.net:47418
+  
+In this case Host is "mymagentoapp-donaldd.azva.dotcloud.net:47418" and User Password is "A5TH84K6WAsxGDxmJD8H".
+Tables Prefix should be left empty.
+
+Check the checkbox for "Skip Base URL Validation Before the Next Step", leave everything else the way it is and click continue.
+
+Your browser might time out and give you the following error::
+  
+  Error 324 (net::ERR_EMPTY_RESPONSE): The server closed the connection without sending any data.
+
+To solve this just reload your browser after a couple seconds.
 
 Happy hacking!
 
