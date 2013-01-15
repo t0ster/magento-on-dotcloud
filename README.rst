@@ -1,8 +1,8 @@
 Magento on dotCloud
 ==================
 
-This is the easiest way to launch a Magento website on dotCloud, it takes less than 2 minutes to get your Magento site in the Cloud.
-It works out of the box, just follow these easy steps and in the end you'll have our Magento site running on dotCloud.
+This is the easiest way to launch a Magento website on dotCloud.
+Just follow these easy steps and in the end you'll have your Magento site running on dotCloud.
 
 To run this code on dotCloud, you need a FREE `dotCloud account
 <https://www.dotcloud.com/register.html>`_ .
@@ -20,7 +20,7 @@ Then clone this repository, and push it to dotCloud::
   dotcloud create mymagentoapp 
   dotcloud push
 
-This can take up to 10 minutes, but in the and your Magento site will be running on dotCloud, to finalize your magento setup simply run::
+This can take up to 10 minutes, but in the end your Magento site will be running on dotCloud, to finalize your magento setup simply run::
   
   dotcloud open
 
