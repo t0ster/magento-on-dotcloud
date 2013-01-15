@@ -21,6 +21,7 @@ Then clone this repository, and push it to dotCloud::
   dotcloud push
 
 This can take up to 10 minutes, but in the and your Magento site will be running on dotCloud, to finalize your magento setup simply run::
+  
   dotcloud open
 
 You can then continue until you reach the configuration page. Here you'll need to enter your database credentials for your MySQL database. Your Database Name is "magento" and your User Name is "root". The other credentials you can get from the dashboard or with the following command::
@@ -30,7 +31,7 @@ You can then continue until you reach the configuration page. Here you'll need t
 Everything you need is in here. You need to look for a line similar to this one::
   
   DOTCLOUD_DB_MYSQL_URL=mysql://root:A5TH84K6WAsxGDxmJD8H@mymagentoapp-donaldd.azva.dotcloud.net:47418
-  
+
 In this case Host is "mymagentoapp-donaldd.azva.dotcloud.net:47418" and User Password is "A5TH84K6WAsxGDxmJD8H".
 Tables Prefix should be left empty.
 
