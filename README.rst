@@ -49,3 +49,6 @@ You can also learn more by diving into `dotCloud documentations
 <http://docs.dotcloud.com/>`_, especially the two for the `PHP service
 <http://docs.dotcloud.com/services/php/>`_ and `MySQL service 
 <http://docs.dotcloud.com/0.9/services/mysql/>`_ which is used by this app.
+
+Feel free to also check out my `Blog
+<http://www.donckers.co/>`_
