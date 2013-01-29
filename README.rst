@@ -41,7 +41,7 @@ Your browser might time out and give you the following error::
   
   Error 324 (net::ERR_EMPTY_RESPONSE): The server closed the connection without sending any data.
 
-To solve this just reload your browser after a couple seconds.
+To solve this just reload your browser after of couple seconds.
 
 Happy hacking!
 
