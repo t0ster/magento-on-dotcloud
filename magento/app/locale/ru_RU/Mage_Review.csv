@@ -1,49 +1,97 @@
-Unable to post review. Please try again later.,Unable to post review. Please try again later.
-Your review has been accepted for moderation,Your review has been accepted for moderation
-Product Reviews,Product Reviews
-Be the first to review this product,Be the first to review this product
-Add to Compare,Add to Compare
-My Product Reviews,My Product Reviews
-Average Customer Rating,Average Customer Rating
-1 star,1 star
-Buy %s for %s,Buy %s for <strong>%s</strong>
-Back,Back
-Add Items to Cart,Add Items to Cart
-Your Review (submitted on %s):,<strong>Your Review</strong> (submitted on %s):
-You're reviewing: %s,"You're reviewing: <span class=""normal-weight"">%s</span>"
-Back to My Reviews,Back to My Reviews
-View All Reviews,View All Reviews
-Product Rating:,Product Rating:
-(Posted on %s),(Posted on %s)
-Summary of Your Review,Summary of Your Review
-Write Your Own Review,Write Your Own Review
-4 stars,4 stars
-%d Review(s),%d Review(s)
-Your Rating:,Your Rating:
-My Recent Reviews,My Recent Reviews
-Availability: Out of stock.,Availability: Out of stock.
-How do you rate this product?,How do you rate this product?
-Nickname,Nickname
-Availability: In stock. Ships within 24hours.,Availability: In stock. Ships within 24hours.
-Review by %s,by <em>%s</em>
-Average Customer Rating:,Average Customer Rating:
-Rating:,Rating:
-Add to Cart,Add to Cart
-(%s Reviews),(%s Reviews)
-Please select one of each of the ratings above,Please select one of each of the ratings above
-Review,Review
-5 stars,5 stars
-Customer Reviews,Customer Reviews
-Review Details,Review Details
-Add to Wishlist,Add to Wishlist
-View Details,View Details
-Product Review (submitted on %s):,<strong>Product Review</strong> (submitted on %s):
-You have submitted no reviews.,You have submitted no reviews.
-Back to Product Reviews,Back to Product Reviews
-Qty,Qty
-Submit Review,Submit Review
-3 stars,3 stars
-Back to Main Product Info,Back to Main Product Info
-Add Your Review,Add Your Review
-OR,OR
-2 stars,2 stars
+"%d Review(s)","Отзывы (%d)"
+"%s Review(s)","Отзывы (%s)"
+"(Posted on %s)","(Отзыв написан %s)"
+"1 star","1 звезда"
+"2 stars","2 звезды"
+"3 stars","3 звезды"
+"4 stars","4 звезды"
+"5 stars","5 звёзд"
+"<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s %3$s</a> <a href=""mailto:%4$s"">(%4$s)</a>","<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s %3$s</a> <a href=""mailto:%4$s"">(%4$s)</a>"
+"Add New Review","Добавить новый отзыв"
+"Add Your Review","Добавьте ваш отзыв"
+"Administrator","Администратор"
+"All Reviews","Все отзывы"
+"All Reviews of Customer `%s`","Все отзывы клиента `%s`"
+"All Reviews of Product `%s`","Все отзывы о товаре `%s`"
+"Allow Guests to Write Reviews","Разрешить гостям писать отзывы"
+"Approved","Одобрен"
+"Are you sure you want to do this?","Вы действительно хотите это сделать?"
+"Are you sure?","Вы уверены?"
+"Average Customer Rating","Средний рейтинг"
+"Average Customer Rating:","Средний рейтинг:"
+"Back","Вернуться"
+"Back to Main Product Info","Вернуться к описанию товара"
+"Back to My Reviews","Вернуться к моим отзывам"
+"Back to Product Reviews","Вернуться к отзывам товара"
+"Be the first to review this product","Добавить отзыв"
+"Catalog Product Review View","Каталог товаров. Просмотр отзыва"
+"Catalog Product Reviews List","Каталог товаров. Список отзывов"
+"Created On","Создано"
+"Customer","Клиент"
+"Customer My Account Product Reviews","Учётная запись клиента. Отзывы о товарах"
+"Customer My Account Review Details","Учётная запись клиента. Детали отзыва"
+"Customer Reviews","Отзывы пользователей"
+"Customers Reviews","Отзывы пользователя"
+"Delete","Удалить"
+"Delete Review","Удалить отзыв"
+"Detailed Rating","Подробный рейтинг"
+"Edit Review '%s'","Редактировать отзыв '%s'"
+"Guest","Гость"
+"How do you rate this product?","Как вы оцениваете этот товар?"
+"ID","ИД"
+"Manage Ratings","Управление параметрами оценок"
+"My Product Reviews","Мои отзывы о товарах"
+"My Recent Reviews","Мои последние отзывы"
+"Name","Название"
+"Name in Store","Название в магазине"
+"New Review","Новый отзыв"
+"Nickname","Псевдоним пользователя"
+"Nickname can\'t be empty","Псевдоним пользователя не может быть пустым"
+"Not Approved","Отклонён"
+"Only registered users can write reviews. Please, <a href=""%s"">log in</a> or <a href=""%s"">register</a>","Оставлять отзывы могут только зарегистрированные пользователи. Пожалуйста, <a href=""%s"">войдите</a> или <a href=""%s"">зарегистрируйтесь</a>"
+"Pending","В очереди"
+"Pending Reviews","Отзывы, ожидающие проверки"
+"Pending Reviews of Customer `%s`","Отзывы, ожидающие проверки. Клиент `%s`"
+"Please select a product","Пожалуйста, выберите товар"
+"Please select one of each of the ratings above","Пожалуйста, выберите значение для каждой оценки"
+"Posted By","Создано"
+"Price","Цена"
+"Product","Товар"
+"Product Name","Название товара"
+"Product Rating","Рейтинг товара"
+"Product Rating:","Рейтинг товара:"
+"Product Review (submitted on %s):","Отзыв о товаре (написан %s):"
+"Product Reviews","Отзывы о товаре"
+"Product SKU","Артикул товара"
+"Products Reviews","Отзывы на товар"
+"Qty","Кол-во"
+"Rating:","Рейтинг:"
+"Review","Отзыв"
+"Review (submitted on %s):","Отзыв (написан %s):"
+"Review Details","Подробности отзыва"
+"Review Form Fields Before","Review Form Fields Before"
+"Review by <span>%s</span>","Отзыв пользователя <span>%s</span>"
+"Review can\'t be empty","Отзыв не может быть пустым"
+"Review summary can\'t be empty","Название отзыва не может быть пустым"
+"Reviews and Ratings","Отзывы и параметры оценки"
+"SKU","Артикул"
+"Save Review","Сохранить отзыв"
+"Status","Статус"
+"Submit Review","Добавить отзыв"
+"Summary Rating","Общий рейтинг"
+"Summary of Review","Название отзыва (основная мысль)"
+"Summary of Your Review","Название вашего отзыва (основная мысль)"
+"Title","Заголовок"
+"Type","Тип"
+"Unable to post the review.","Невозможно сохранить отзыв."
+"Update Status","Обновить статус"
+"View All Reviews","Просмотреть все отзывы"
+"View Details","Подробнее"
+"Visible In","Отображается в"
+"Websites","Сайты"
+"Write Your Own Review","Напишите ваш собственный отзыв"
+"You have submitted no reviews.","Вы не оставляли отзывы о товарах на этом сайте."
+"You're reviewing:","Вы пишете отзыв на товар:"
+"Your Rating:","Ваш рейтинг:"
+"Your Review (submitted on %s):","Ваш отзыв (написан %s):"
+"Your review has been accepted for moderation.","Ваш отзыв передан модераторам."

@@ -1,3 +1,5 @@
 # Ignore paths that contain user-generated content.
 .dotcloud
 .DS_Store
+magento/var
+magento/downloader
