@@ -1,15 +1,15 @@
 #!/bin/sh
-mkdir ~/shared
-mv ~/current/var ~/shared
-mv ~/current/media ~/shared
-mv ~/current/downloader/.cache ~/shared/downloader
-mv ~/current/app/etc/local.xml ~/shared/app/etc/local.xml
-mv ~/current/downloader/cache.cfg ~/shared/downloader
-mv ~/current/downloader/connect.cfg ~/shared/downloader
-ln -s ~/shared/var ~/current
-ln -s ~/shared/media ~/current
-ln -s ~/shared/downloader/.cache ~/current/downloader
-ln -s ~/shared/app/etc/local.xml ~/current/app/etc
-ln -s ~/shared/downloader/cache.cfg ~/current/downloader
-ln -s ~/shared/downloader/connect.cfg ~/current/downloader
+mkdir -p ~/data/shared
+mv -n ~/current/var ~/data/shared
+mv -n ~/current/media ~/data/shared
+mv -n ~/current/downloader/.cache ~/data/shared/downloader
+mv -n ~/current/app/etc/local.xml ~/data/shared/app/etc/local.xml
+mv -n ~/current/downloader/cache.cfg ~/data/shared/downloader
+mv -n ~/current/downloader/connect.cfg ~/data/shared/downloader
+ln -s ~/data/shared/var ~/current
+ln -s ~/data/shared/media ~/current
+ln -s ~/data/shared/downloader/.cache ~/current/downloader
+ln -s ~/data/shared/app/etc/local.xml ~/current/app/etc
+ln -s ~/data/shared/downloader/cache.cfg ~/current/downloader
+ln -s ~/data/shared/downloader/connect.cfg ~/current/downloader
 return 0
