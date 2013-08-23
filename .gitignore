@@ -3,3 +3,6 @@
 .DS_Store
 www/var
 www/downloader/.cache
+www/app/etc/local.xml
+www/downloader/cache.cfg
+www/downloader/connect.cfg
