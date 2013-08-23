@@ -1,6 +1,6 @@
 www:
   type: php
   approot: www
-  postinstall: ../postinstall.php
+  postinstall: ../postinstall.php; ../postinstall.sh
 db:
   type: mysql
