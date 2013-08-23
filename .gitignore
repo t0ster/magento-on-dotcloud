@@ -6,3 +6,4 @@ www/downloader/.cache
 www/app/etc/local.xml
 www/downloader/cache.cfg
 www/downloader/connect.cfg
+www/media
