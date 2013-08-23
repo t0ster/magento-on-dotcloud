@@ -2,4 +2,4 @@
 .dotcloud
 .DS_Store
 magento/var
-magento/downloader
+magento/downloader/.cache
