@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dotcloud push $@ && dotcloud run www ./code/update_shared.sh
