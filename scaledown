@@ -1,0 +1,4 @@
+#!/bin/sh
+
+dotcloud scale www:memory=32mb
+dotcloud scale db:memory=32mb
