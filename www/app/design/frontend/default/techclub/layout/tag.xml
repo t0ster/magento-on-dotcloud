@@ -29,18 +29,6 @@
 <layout version="0.1.0">
 
 <!--
-Default layout, loads most of the pages
--->
-
-    <default>
-        <!-- Mage_Tag -->
-        <reference name="left">
-            <block type="tag/popular" name="tags_popular" template="tag/popular.phtml"/>
-        </reference>
-
-    </default>
-
-<!--
 Customer account pages, rendered for all tabs in dashboard
 -->
 
