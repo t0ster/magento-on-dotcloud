@@ -20,24 +20,19 @@
  *
  * @category    design
  * @package     default_modern
- * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="block block-newsletter">
-
-	<div class="block-title">
-        <strong><span><?php echo $this->__('Newsletter') ?></span></strong>
-    </div>
-    <div class="block-content">
 <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
     <div class="form-subscribe">
-        <?php /*?><label for="newsletter"><?php echo $this->__('Newsletter Sign-up:') ?></label><?php */?>
+        <div class="form-subscribe-header">
+            <label for="newsletter"><?php echo $this->__('Newsletter Sign-up:') ?></label>
+        </div>
         <div class="input-box">
            <input type="text" name="email" id="newsletter" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="input-text required-entry validate-email" />
-	        <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button"><span><span><?php echo $this->__('Go') ?></span></span></button>
-		</div>
-        
+        </div>
+        <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button"><span><span><?php echo $this->__('Submit') ?></span></span></button>
     </div>
 </form>
 <script type="text/javascript">
@@ -46,6 +41,3 @@
     new Varien.searchForm('newsletter-validate-detail', 'newsletter', '<?php echo $this->helper('newsletter')->__('Enter your email address') ?>');
 //]]>
 </script>
-    </div>
-</div>
-

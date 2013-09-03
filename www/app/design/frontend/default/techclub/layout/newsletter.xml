@@ -21,12 +21,25 @@
  *
  * @category    design
  * @package     default_modern
- * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 
 -->
 <layout version="0.1.0">
+
+<!--
+Default layout, loads most of the pages
+-->
+
+    <default>
+
+        <!-- Mage_Newsletter -->
+        <reference name="footer">
+            <block type="newsletter/subscribe" name="newsletter" as="newsletter" template="newsletter/subscribe.phtml"/>
+        </reference>
+
+    </default>
 
 <!--
 Customer account pages, rendered for all tabs in dashboard
@@ -44,7 +57,8 @@ Customer account pages, rendered for all tabs in dashboard
         <update handle="customer_account"/>
         <reference name="my.account.wrapper">
             <block type="customer/newsletter" name="customer_newsletter">
-                <block type="page/html_wrapper" name="customer.newsletter.form.before" as="form_before">
+                <block type="page/html_wrapper" name="customer.newsletter.form.before" as="form_before" translate="label">
+                    <label>Newsletter Subscription Form Before</label>
                     <action method="setMayBeInvisible"><value>1</value></action>
                 </block>
             </block>
